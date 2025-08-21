@@ -63,7 +63,7 @@ const ProfileSection = () => {
           </div>
 
           {/* Social Links */}
-          <div className='flex items-center justify-center space-x-4 pt-2'>
+          <div className='flex items-center justify-center pt-2 gap-3'>
             <a
               href='https://github.com/wovie'
               target='_blank'
@@ -72,7 +72,7 @@ const ProfileSection = () => {
             >
               <svg
                 viewBox='0 0 24 24'
-                width='20'
+                width='22'
                 height='20'
                 fill='currentColor'
               >
@@ -87,11 +87,32 @@ const ProfileSection = () => {
             >
               <svg
                 viewBox='0 0 24 24'
-                width='20'
+                width='22'
                 height='20'
                 fill='currentColor'
               >
                 <path d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z' />
+              </svg>
+            </a>
+            <a
+              href='https://wovie-frontend-mentor.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='p-2 text-gray-600 hover:text-gray-900'
+            >
+              <svg
+                viewBox='0 0 24 24'
+                width='22'
+                height='20'
+                fill='currentColor'
+                stroke='currentColor'
+                strokeWidth='1'
+              >
+                <g>
+                  <path d='M24.459 12.106a.756.756 0 0 1-.307-.065l-6.438-2.883a.751.751 0 0 1 0-1.37l6.438-2.873a.752.752 0 0 1 .991.379.752.752 0 0 1-.38.991l-4.905 2.189 4.906 2.197a.75.75 0 0 1-.305 1.435z' />
+                  <path d='M15.686 22.565c-7.078 0-13.266-4.778-15.045-11.62a.749.749 0 1 1 1.451-.378 14.044 14.044 0 0 0 13.594 10.498.75.75 0 0 1 0 1.5z' />
+                  <path d='M13.102 16.336a.75.75 0 0 1-.75-.75V1.33a.75.75 0 0 1 1.5 0v14.257a.75.75 0 0 1-.75.749z' />
+                </g>
               </svg>
             </a>
           </div>

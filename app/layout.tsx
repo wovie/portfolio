@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: 'Woy Vien - Developer Portfolio',
     description:
       'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-    url: 'https://your-domain.com',
+    url: 'https://www.woviestudios.com/',
     siteName: 'Woy Vien - Portfolio',
     images: [
       {
